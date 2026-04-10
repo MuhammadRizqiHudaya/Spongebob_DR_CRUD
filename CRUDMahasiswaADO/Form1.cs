@@ -16,6 +16,17 @@ namespace CRUDMahasiswaADO
         private readonly SqlConnection conn;
         private readonly string connectionString =
             "Data Source=LAPTOP-2TIS9UVD\\RIZQIHUDAYA;Initial Catalog=DBAkademikADO;Integrated Security=True";
+
+        private void ClearForm()
+        {
+            txtNIM.Clear();
+            txtNama.Clear();
+            cmbJK.SelectedIndex = -1;
+            txtAlamat.Clear();
+            txtKodeProdi.Clear();
+            dtpTanggalLahir.Value = DateTime.Now;
+            txtNIM.Focus();
+        }
         public Form1()
         {
             InitializeComponent();
