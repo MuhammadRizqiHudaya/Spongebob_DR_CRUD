@@ -45,10 +45,14 @@ namespace CRUDMahasiswaADO
         {
             try
             {
-                if (conn.State == ConnectionState.Closed) conn.Open();
+                if (conn.State == ConnectionState.Closed)
+                {
+                    conn.Open();
+                }
 
                 dataGridView1.Rows.Clear();
                 dataGridView1.Columns.Clear();
+
                 dataGridView1.Columns.Add("NIM", "NIM");
                 dataGridView1.Columns.Add("Nama", "Nama");
                 dataGridView1.Columns.Add("JenisKelamin", "Jenis Kelamin");
