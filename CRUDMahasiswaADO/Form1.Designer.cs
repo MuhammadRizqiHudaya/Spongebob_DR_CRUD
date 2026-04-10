@@ -73,7 +73,6 @@
             this.label2.Size = new System.Drawing.Size(44, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "Nama";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtNama
             // 
