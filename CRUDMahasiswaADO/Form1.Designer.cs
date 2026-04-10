@@ -46,7 +46,13 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
+            this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
+            this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.Load += new System.EventHandler(this.FormMahasiswa_Load);
             this.SuspendLayout();
             // 
             // label1

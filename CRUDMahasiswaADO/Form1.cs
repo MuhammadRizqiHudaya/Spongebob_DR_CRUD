@@ -216,7 +216,7 @@ namespace CRUDMahasiswaADO
                 txtKodeProdi.Text = row.Cells["KodeProdi"].Value.ToString();
             }
         }
-        private void Form1_Load(object sender, EventArgs e)
+        private void FormMahasiswa_Load(object sender, EventArgs e)
         {
             cmbJK.Items.Clear();
             cmbJK.Items.Add("L");
