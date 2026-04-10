@@ -1,6 +1,6 @@
 ﻿namespace CRUDMahasiswaADO
 {
-    partial class Form1
+    partial class FormMahasiswa
     {
         /// <summary>
         /// Required designer variable.
@@ -109,7 +109,6 @@
             this.label5.Size = new System.Drawing.Size(90, 16);
             this.label5.TabIndex = 6;
             this.label5.Text = "Tanggal Lahir";
-            this.label5.Click += new System.EventHandler(this.label3_Click);
             // 
             // dtpTanggalLahir
             // 
@@ -126,7 +125,6 @@
             this.label3.Size = new System.Drawing.Size(49, 16);
             this.label3.TabIndex = 8;
             this.label3.Text = "Alamat";
-            this.label3.Click += new System.EventHandler(this.label3_Click_1);
             // 
             // txtAlamat
             // 
@@ -195,7 +193,6 @@
             this.btnDelete.TabIndex = 16;
             this.btnDelete.Text = "Menghapus Data";
             this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.button5_Click);
             // 
             // dataGridView1
             // 
@@ -207,7 +204,7 @@
             this.dataGridView1.Size = new System.Drawing.Size(780, 150);
             this.dataGridView1.TabIndex = 17;
             // 
-            // Form1
+            // FormMahasiswa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -230,8 +227,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtNIM);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "FormMahasiswa";
+            this.Text = "Form Data Mahasiswa";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

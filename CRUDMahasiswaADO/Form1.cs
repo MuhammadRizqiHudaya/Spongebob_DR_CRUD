@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace CRUDMahasiswaADO
 {
-    public partial class Form1 : Form
+    public partial class FormMahasiswa : Form
     {
         private readonly SqlConnection conn;
         private readonly string connectionString =
@@ -27,7 +27,7 @@ namespace CRUDMahasiswaADO
             dtpTanggalLahir.Value = DateTime.Now;
             txtNIM.Focus();
         }
-        public Form1()
+        public FormMahasiswa()
         {
             InitializeComponent();
             conn = new SqlConnection(connectionString);
